@@ -25,7 +25,7 @@ int poly_mul(int a, int b) {
     return p;
 }
 
-// Thuật toán Euclidean mở rộng (bảng chuẩn 4 cột: r, q, v, w)
+// Thuật toán Euclidean mở rộng 
 int extended_euclidean_gf2(int a, int m) {
     // Khởi tạo các giá trị cho r_{-1} và r_0
     int r_prev = m, r_curr = a;
